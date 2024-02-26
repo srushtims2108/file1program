@@ -1,0 +1,29 @@
+
+names = ["srushti" , "shreya"]
+names.insert(1,"monisha")
+names[2:2]= [ "jodah", "niharika"]
+print(names)
+names.sort()
+print(names)
+
+details = { "name" : "srushti" , "class" : 8 , "subject" : "biology" }
+print(details)
+details ["name"] = "shreya"
+print(details)
+print(details["class"])
+print(details.get("subject"))
+print(details.get("subject2","maths"))
+
+print(details.pop("name"))
+print(details)
+
+print(details.keys ())
+print(list(details.keys()))
+
+print(details.values())
+print(list(details.values()))
+
+print(details.items())
+print(list(details.items()))
+
+ 

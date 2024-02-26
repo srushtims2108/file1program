@@ -1,0 +1,9 @@
+name = input("enter the string:")
+key = input("enter key")
+
+search = print(key in name)
+print(name[key])
+
+
+
+
